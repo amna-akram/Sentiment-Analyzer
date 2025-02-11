@@ -15,3 +15,20 @@ Built with Flask for the backend and React for the frontend.
 1. Run cd UI
 2. Run npm install
 3. Run npm start to run the UI. The React app will run at http://localhost:3000.
+
+**How to use the endpoint**
+The Flask API provides a POST endpoint for sentiment analysis.
+
+POST http://127.0.0.1:3000/analyze
+
+Example Request:
+{
+    "text": "I love this movie!",
+    "model": "custom"
+}
+
+Sample cURL:
+curl -X POST "http://127.0.0.1:3000/analyze" \
+-H "Content-Type: application/json" \
+-d '{"text": "I love this movie!", "model": "custom"}'
+
