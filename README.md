@@ -14,7 +14,7 @@ Built with Flask for the backend and React for the frontend.
 **Steps to run the React Frontend**
 1. Run cd UI
 2. Run npm install
-3. Run npm start to run the UI. The React app will run at http://localhost:3000.
+3. Run npm start to run the UI. The React app will run at http://localhost:3001.
 
 **How to use the endpoint**
 The Flask API provides a POST endpoint for sentiment analysis.
